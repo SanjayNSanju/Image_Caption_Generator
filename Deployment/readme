@@ -1,3 +1,4 @@
 static folder contains css and javascript files.
-templates folder contains html files
+templates folder contains html files.
+uploads folder contains sample images for testing.
 app.py is the flask and python file which is to run the web app for this project.
