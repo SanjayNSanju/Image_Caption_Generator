@@ -1,0 +1,47 @@
+body {
+    background-image: url('/static/dp.jpeg');
+    background : linear-gradient(90deg, rgb(52, 50, 103) 0%, rgb(153, 153, 242) 35%, rgba(0,212,255,1) 100%);
+    /* background : linear-gradient(90deg, rgb(125,156,175) 0%,rgb(130,150,125) 55%, rgb(206,241,193) 75%); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#id1 {
+    font-size : 75px;
+    font-weight : bold;
+    color : #2d49ad;
+    text-align : center;
+}
+
+section {
+    display : flex;
+}
+article {
+    /* background-color: rgb(179, 225, 252); */
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    width: 100%;
+    height : 100%;
+}
+#p1 {
+    font-family : Arial;
+    font-size : large;
+    text-align : center;
+    padding-top : 20%;
+    padding-bottom: 20%;
+    color : white;
+}
+button {
+    display : inline-block;
+    margin-left : 150px;
+    margin-top: 0px;
+    font-size : 30px;
+    font-weight : 600;
+    color : rgb(10, 0, 8);
+    border: 2px dashed;
+    background : linear-gradient(90deg, rgb(247, 221, 24) 0%, rgb(218, 236, 247) 35%, rgb(19, 3, 110) 100%);
+    cursor:grab;
+}
+button:hover {
+    background-color: #999
+}
