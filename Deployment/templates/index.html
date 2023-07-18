@@ -1,0 +1,37 @@
+<html lang="en"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Image Caption Generator</title>
+    <link href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link href="/static/css/styles3.css" rel="stylesheet">
+</head>
+
+<body>
+    <div style="background-color: white;">
+        <p id="id1">Image Caption Generator</p>
+    </div>
+    <section class="tsection">
+        <article>
+            <p id="p1">In the modern era, image captioning has become one of the most widely 
+                required tools. Moreover, there are inbuilt applications that generate and 
+                provide a caption for a certain image, all these things are done with the help of 
+                deep neural network models</p>
+            <!-- <a href="base.html">Try Captioning</a> -->
+            <button onclick="caption()">Try Captioning</button>
+        </article>
+        <article>
+            <img src="/static/i1.png" style="height : 500px ;">
+        </article>
+    </section>
+    <script>
+        function caption()
+        {
+            window.location.href='base.html';
+        }
+    </script>
+</body>
