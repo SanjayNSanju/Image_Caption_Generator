@@ -1,0 +1,3 @@
+static folder contains css and javascript files.
+templates folder contains html files
+app.py is the flask and python file which is to run the web app for this project.
